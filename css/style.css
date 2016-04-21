@@ -1,6 +1,9 @@
 body {
-	background-color: #c9fbef;
+	background-color: rgba(201, 251, 239, 0.5);
+	background-image: url("img/banana.jpg");
+	background-blend-mode: overlay;
 	margin: 0px;
+	height: 100%;
 }
 
 .container {
@@ -9,7 +12,7 @@ body {
 	height: 100vh;
 }
 
-img {
+.perfil {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
@@ -19,9 +22,10 @@ img {
 .texto {
 	font-family: Helvetica;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 26px;
 	margin: 0px 10px;
-	padding: 20px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+	color: #8340ca;
 }
 
 .p1 {
@@ -49,5 +53,4 @@ img {
 	background-color: orange;
 	float: left;
 	margin: 5px;
-	display: inline;
 }
