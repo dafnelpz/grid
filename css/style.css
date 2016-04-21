@@ -1,5 +1,6 @@
 body {
 	background-color: #c9fbef;
+	margin: 0px;
 }
 
 .container {
@@ -17,8 +18,25 @@ img {
 
 .texto {
 	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px 10px;
+	padding: 20px 0px 10px 0px;
+}
+
+.p1 {
+	padding: 0px 0px 10px 0px;
+	margin: 0px 10px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.p2 {
+	padding: 0px;
+	margin: 0px 20px;
+	font-family: Helvetica;
 	font-size: 14px;
-	margin: 10px;
 }
 
 .cuadros {
@@ -26,11 +44,10 @@ img {
 }
 
 .grid {
-	width: 10vw;
-	height: 10vh;
-	background-color: yellow;
+	width: 23%;
+	height: 100px;
+	background-color: orange;
 	float: left;
-	border-color: black;
-	border-style: solid;
-	margin: 10px;
+	margin: 5px;
+	display: inline;
 }
