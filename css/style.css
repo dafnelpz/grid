@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-	background-color: #f9f9f9;
+	background-color: white;
 	margin: 0 25%;
 	height: 100vh;
 }
@@ -45,13 +45,12 @@ body {
 
 .cuadros {
 	width: 100%;
-	margin: 0px 0px 0px 5px;
+	margin: 0px 0px 0px 4px;
 }
 
 .grid {
 	width: 23%;
 	height: 100px;
-	background-color: orange;
 	float: left;
 	margin: 5px;
 }
@@ -66,17 +65,19 @@ body {
 	opacity: 0.6;
 }
 
-.grid .texto {
+.grid .lugar {
 	position: relative;
-	top: 20px;
-	visibility:hidden;
+	top: 0px;
+	left: 2px;
+	visibility: hidden;
 	font-family: Helvetica;
-	font-size: 20px;
-	color: #f6546a;
+	font-weight: bold;
+	font-size: 22px;
+	color: #3e08a9;
 }
 
-.grid:hover .texto {
-	visibility:visible;
+.grid:hover .lugar {
+	visibility: visible;
 }
 
 
