@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-	background-color: white;
+	background-color: #f9f9f9;
 	margin: 0 25%;
 	height: 100vh;
 }
@@ -25,7 +25,7 @@ body {
 	font-size: 26px;
 	margin: 0px 10px;
 	padding: 10px 0px 10px 0px;
-	color: #8340ca;
+	color: #3e08a9;
 }
 
 .p1 {
