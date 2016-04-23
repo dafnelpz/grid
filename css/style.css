@@ -63,10 +63,21 @@ body {
 }
 
 .grid:hover {
-	opacity: 0.7;
+	opacity: 0.6;
 }
 
+.grid .texto {
+	position: relative;
+	top: 20px;
+	visibility:hidden;
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #f6546a;
+}
 
+.grid:hover .texto {
+	visibility:visible;
+}
 
 
 
