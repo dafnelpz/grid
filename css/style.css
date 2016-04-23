@@ -1,6 +1,6 @@
 body {
 	background-color: rgba(201, 251, 239, 0.5);
-	background-image: url("img/banana.jpg");
+	background-image: url("../img/banana.jpg");
 	background-blend-mode: overlay;
 	margin: 0px;
 	height: 100%;
