@@ -1,5 +1,5 @@
 body {
-	background-color: rgba(201, 251, 239, 0.5);
+	background-color: rgba(201, 251, 239, 0.6);
 	background-image: url("../img/banana.jpg");
 	background-blend-mode: overlay;
 	margin: 0px;
@@ -45,6 +45,7 @@ body {
 
 .cuadros {
 	width: 100%;
+	margin: 0px 0px 0px 5px;
 }
 
 .grid {
@@ -54,3 +55,18 @@ body {
 	float: left;
 	margin: 5px;
 }
+
+.grid img {
+	position: fixed;
+	width: 150px;
+	height: 100px;
+}
+
+.grid:hover {
+	opacity: 0.7;
+}
+
+
+
+
+
